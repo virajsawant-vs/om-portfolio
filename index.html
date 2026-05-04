@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Om Nanekar | Mechanical Engineer Portfolio</title>
+  <!-- Google Fonts + Font Awesome 6 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* small extra style to make certificate images look great inside cards */
+    .cert-img {
+      width: 100%;
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+      border: 1px solid rgba(0, 217, 255, 0.3);
+    }
+    .cert-card:hover .cert-img {
+      transform: scale(1.02);
+    }
+    .cert-card {
+      background: linear-gradient(145deg, #1a1d2b, #131725);
+      text-align: center;
+    }
+    .cert-card h4 {
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Modern Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-text">OM</span>
+        <span class="logo-dot">⚙️</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-highlight"></div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home" class="section home-section">
+      <div class="container">
+        <div class="home-grid">
+          <div class="home-content">
+            <div class="badge-glow">
+              <span class="badge">⚡ 1st Year · B.Tech Mechanical</span>
+            </div>
+            <h1 class="glow-text">Om Nanekar</h1>
+            <p class="home-title">Innovation-driven mechanical engineering student | CAD Enthusiast | Problem Solver</p>
+            <p class="home-desc">I'm passionate about building efficient systems, 3D modeling, and sustainable design. Currently shaping my engineering mindset at <strong class="college-highlight">MIT Academy of Engineering (MIT AOE)</strong>.</p>
+            <div class="home-buttons">
+              <a href="#about" class="btn-primary">Explore Journey <i class="fas fa-arrow-right"></i></a>
+              <a href="#contact" class="btn-outline">Let's Connect <i class="fas fa-comment"></i></a>
+            </div>
+            <div class="social-floating">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="home-avatar">
+            <div class="avatar-wrapper">
+              <div class="avatar-icon">
+                <i class="fas fa-user-astronaut"></i>
+              </div>
+              <div class="rotating-border"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wave-separator">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,64L80,69C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION (with actual certificate images) -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Know me better</span>
+          <h2>About & <span class="accent-text">Achievements</span></h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio">
+            <h3><i class="fas fa-user-graduate"></i> Who am I?</h3>
+            <p>I'm Om Nanekar, a curious and passionate first-year B.Tech Mechanical Engineering student at <strong>MIT Academy of Engineering (MIT AOE), Pune</strong>. I believe that engineering is the art of transforming ideas into reality, and I'm on a mission to merge classic mechanics with modern digital tools.</p>
+            <p>🔧 <strong>Areas of interest:</strong> CAD modeling, thermodynamics, robotics & automation, and sustainable energy systems. Eager to learn industry-relevant software and contribute to real-world projects.</p>
+            <div class="mini-stats">
+              <div class="stat"><i class="fas fa-certificate"></i> 6+ Certifications</div>
+              <div class="stat"><i class="fas fa-microchip"></i> CAD Enthusiast</div>
+              <div class="stat"><i class="fas fa-brain"></i> Problem Solver</div>
+            </div>
+          </div>
+          <div class="education-badge">
+            <div class="edu-card">
+              <i class="fas fa-university"></i>
+              <h4>MIT Academy of Engineering</h4>
+              <p>B.Tech Mechanical Engineering | 2025–2029</p>
+              <span class="year">First Year ·</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ★ CERTIFICATE IMAGES GRID – your actual uploaded certificate images ★ -->
+        <div class="certificates-title">
+          <h3><i class="fas fa-award"></i> My Certifications (6 official credentials)</h3>
+          <p>Click to view full certificate – AI Fluency, Python, Claude from MIT AOE & Anthropic</p>
+        </div>
+        <div class="certificates-grid">
+          <!-- Certificate 1: AI Fluency Framework & Foundations (ai.jpeg) -->
+          <div class="cert-card">
+            <img src="images/ai.jpeg" alt="My photo">
+            <h4>AI Fluency: Framework & Foundations</h4>
+            <p class="issuer">Anthropic · MIT AOE</p>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Verified</div>
+          </div>
+          <!-- Certificate 2: Claude 101 (claude101.jpeg) -->
+          <div class="cert-card">
+            <img src="images/ai 2.jpeg"Claude 101" class="cert-img">
+            <h4>AI Fluency for Nonprofits</h4>
+            <p class="issuer">Anthropic</p>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Verified</div>
+          </div>
+          <!-- Certificate 3: AI Fluency for students (ai 3.jpeg) -->
+          <div class="cert-card">
+            <img src="images/ai 3.jpeg" alt="AI Fluency for students" class="cert-img">
+            <h4>AI Fluency for Students</h4>
+            <p class="issuer">Anthropic Education</p>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Verified</div>
+          </div>
+          <!-- Certificate 4: Python Essentials 1 (py 1.jpeg) -->
+          <div class="cert-card">
+            <img src="images/py 1.jpeg" alt="Python Essentials 1" class="cert-img">
+            <h4>Python Essentials 1</h4>
+            <p class="issuer">Cisco Networking Academy · MIT AOE</p>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Verified</div>
+          </div>
+          <!-- Certificate 5: Python Essentials 2 (py 2.jpeg) -->
+          <div class="cert-card">
+            <img src="images/py 2.jpeg" alt="Python Essentials 2" class="cert-img">
+            <h4>Python Essentials 2</h4>
+            <p class="issuer">Cisco Networking Academy · MIT AOE</p>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Verified</div>
+          </div>
+          <!-- Certificate 6: AI Fluency for nonprofits (ai 2.jpeg) -->
+          <div class="cert-card">
+            <img src="images/claude101.jpeg" alt="AI Fluency for nonprofits" class="cert-img">
+            <h4>Claude 101</h4>
+            <p class="issuer">Anthropic · Social Impact</p>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Verified</div>
+          </div>
+        </div>
+        <!-- end of certificate images grid -->
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header light-header">
+          <span class="section-tag">Get in touch</span>
+          <h2>Let's <span class="accent-text">Collaborate</span></h2>
+          <div class="header-line"></div>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="contact-item">
+                <div class="icon-bg"><i class="fas fa-phone-alt"></i></div>
+                <div>
+                  <h4>Phone / WhatsApp</h4>
+                  <p><a href="tel:+918055965858">+91 8055965858</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="icon-bg"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <h4>Email</h4>
+                  <p><a href="mailto:om.nanekar@mitaoe.edu.in">202501090158@mitaoe.ac.in</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="icon-bg"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <h4>Campus Location</h4>
+                  <p>MIT Academy of Engineering, Alandi, Pune - 412105</p>
+                </div>
+              </div>
+              <div class="contact-social">
+                <p><i class="fas fa-share-alt"></i> Connect directly:</p>
+                <div class="social-icons">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                  <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Extra modern feature: quick contact form -->
+          <div class="contact-form-modern">
+            <div class="form-card">
+              <h3><i class="fas fa-paper-plane"></i> Send a quick note</h3>
+              <p>Feel free to reach out for collaborations, internships, or just a chat.</p>
+              <form id="demo-contact-form">
+                <div class="input-group">
+                  <input type="text" id="name" placeholder="Your name" required>
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="input-group">
+                  <input type="email" id="email" placeholder="Email address" required>
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="input-group">
+                  <textarea rows="3" placeholder="Message..." required></textarea>
+                  <i class="fas fa-comment-dots"></i>
+                </div>
+                <button type="submit" class="btn-submit">Say Hello <i class="fas fa-long-arrow-alt-right"></i></button>
+              </form>
+              <p class="note-demo">✨ Just a demo — shows your interest!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span>Om Nanekar ⚙️</span>
+        <p>Mechanical Engineering | MIT AOE</p>
+      </div>
+      <div class="footer-copy">
+        <p>© 2026 — Built with <i class="fas fa-heart"></i> for future engineers</p>
+      </div>
+      <div class="footer-up">
+        <a href="#home" class="go-top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- smooth scroll + active nav + form alert -->
+  <script>
+    // active nav highlight on scroll
+    const sections = document.querySelectorAll('.section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+    
+    // Contact form demo alert
+    const form = document.getElementById('demo-contact-form');
+    if(form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert(`✨ Thanks for reaching out, Om will get back to you soon! (Demo mode)`);
+        form.reset();
+      });
+    }
+
+    // Smooth scroll for all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if(target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
